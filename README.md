@@ -1,14 +1,25 @@
+<!-- <p align="center">
+  <img src="images/logo.png" width="150" />
+</p> -->
+
 <p align="center">
-  <img src="https://raw.githubusercontent.com/kamalravi/intelligence-quantum-computing/main/images/logo.png" width="150" />
+  <a href="https://github.com/kamalravi/intelligence-quantum-computing/actions">
+    <img src="https://github.com/kamalravi/intelligence-quantum-computing/actions/workflows/ci.yml/badge.svg" />
+  </a>
+  <img src="https://img.shields.io/badge/version-v0.1.0-blue" />
+  <img src="https://img.shields.io/badge/license-MIT-green" />
 </p>
 
 # IQC
 A Streamlit-based benchmarking UI to evaluate multiple AI assistants / LLM providers across a shared question set, with per-call JSONL logging and quick preflight checks.
 
+## Interface Preview
+
 ## Table of contents
 - [IQC](#iqc)
   - [Table of contents](#table-of-contents)
   - [Features](#features)
+  - [Preview](#interface-preview)
   - [Installation](#installation)
     - [Option 1: pip installation (coming soon)](#option-1-pip-installation-coming-soon)
     - [Option 2: source installation](#option-2-source-installation)
@@ -34,6 +45,12 @@ A Streamlit-based benchmarking UI to evaluate multiple AI assistants / LLM provi
 4. Preflight API/model check + downloadable CSV report
 5. One JSONL file per call for reproducible analysis
 6. UI-selectable export directory (auto-created if missing)
+
+## Interface Preview
+
+<p align="center">
+  <img src="images/ui.png" width="800" />
+</p>
 
 ## Installation
 All provided installation methods allow running the Streamlit UI from source.
