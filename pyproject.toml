@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.9"
 license = { file = "LICENSE" }
 authors = [
-  { name = "Kamalakkannan Ravi", email = "Kamalakkannan.Ravi@childrens.harvard.edu" }
+  { name = "Kamalakkannan Ravi", email = "Kamalakkannan.Ravi@childrens.harvard.edu" },
 ]
 
 dependencies = [
@@ -20,11 +20,8 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/YOUR_GITHUB/quant-bench"
-Issues = "https://github.com/YOUR_GITHUB/quant-bench/issues"
-
-[project.scripts]
-quant-bench = "quant_bench.app:main"
+Homepage = "https://github.com/kamalravi/intelligence-quantum-computing"
+Issues = "https://github.com/kamalravi/intelligence-quantum-computing/issues"
 
 [tool.hatch.build]
 sources = ["src"]
