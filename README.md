@@ -13,8 +13,6 @@
 # IQC
 A Streamlit-based benchmarking UI to evaluate multiple AI assistants / LLM providers across a shared question set, with per-call JSONL logging and quick preflight checks.
 
-## Interface Preview
-
 ## Table of contents
 - [IQC](#iqc)
   - [Table of contents](#table-of-contents)
