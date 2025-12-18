@@ -1,0 +1,11 @@
+questions:
+  - id: Q1
+    text: "Explain how model transparency and interpretability differ, and give one real-world example of each."
+  - id: Q2
+    text: "List three potential biases that could emerge in a large-language-model used for medical triage, and describe one mitigation."
+  - id: Q3
+    text: "Given a conversation log, how can a trust evaluator rate the agent’s reliability on a 5-point scale?"
+  - id: Q4
+    text: "Write a short paragraph summarizing why calibration metrics (ECE, Brier score) matter for human-AI trust."
+  - id: Q5
+    text: "Compare open-weight and closed-weight models in terms of auditability, reproducibility, and governance."

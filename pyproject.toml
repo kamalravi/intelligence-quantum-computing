@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "iqc"
+version = "0.1.0"
+description = "Benchmarking UI for AI assistants on quantum computing (and beyond)."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Kamalakkannan Ravi", email = "Kamalakkannan.Ravi@childrens.harvard.edu" }
+]
+
+dependencies = [
+  "streamlit>=1.32",
+  "requests>=2.31",
+  "pyyaml>=6.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/YOUR_GITHUB/quant-bench"
+Issues = "https://github.com/YOUR_GITHUB/quant-bench/issues"
+
+[project.scripts]
+quant-bench = "quant_bench.app:main"
+
+[tool.hatch.build]
+sources = ["src"]
+
+[tool.hatch.metadata]
+allow-direct-references = true

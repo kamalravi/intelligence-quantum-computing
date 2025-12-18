@@ -1,0 +1,33 @@
+# providers.yaml
+# Use environment variables for API keys when possible. Replace ${...} locally or set env vars.
+
+providers:
+  - name: Groq
+    model: llama-3.3-70b-versatile
+    api_key: ${GROQ_API_KEY}
+    temperature: 0.7
+    max_tokens: 512
+
+  - name: OpenRouter
+    model: openrouter/auto
+    api_key: ${OPENROUTER_API_KEY}
+    temperature: 0.7
+    max_tokens: 512
+
+  - name: Mistral (La Plateforme)
+    model: mistral-small-latest
+    api_key: ${MISTRAL_API_KEY}
+    temperature: 0.7
+    max_tokens: 512
+
+  - name: Cohere (Chat)
+    model: command-a-03-2025
+    api_key: ${COHERE_API_KEY}
+    temperature: 0.7
+    max_tokens: 512
+
+  - name: Cerebras
+    model: llama3.3-70b
+    api_key: ${CEREBRAS_API_KEY}
+    temperature: 0.7
+    max_tokens: 512
