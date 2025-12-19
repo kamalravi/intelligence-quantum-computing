@@ -1,5 +1,5 @@
 [build-system]
-requires = ["hatchling"]
+requires = ["hatchling>=1.21"]
 build-backend = "hatchling.build"
 
 [project]
@@ -25,6 +25,9 @@ Issues = "https://github.com/kamalravi/intelligence-quantum-computing/issues"
 
 [tool.hatch.build]
 sources = ["src"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/iqc"]
 
 [tool.hatch.metadata]
 allow-direct-references = true
